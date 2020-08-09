@@ -1,0 +1,29 @@
+.post-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.progress-bar{
+    margin: 10px 0px;
+    min-width: 320px;  
+}
+.image-select{
+    background-color: #070809 !important;
+    color: white !important;
+}
+.image-upload{
+    background-color: black !important;
+    color: white !important;
+}
+.caption-upload{
+    
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 5px;
+}

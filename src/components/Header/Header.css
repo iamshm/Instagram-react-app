@@ -1,0 +1,47 @@
+
+.app-header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+ display: flex;
+ justify-content: space-between;
+  background-color:  #1c1d1d;
+  padding: 10px;
+  border-bottom: 1px solid #666666;
+  object-fit: contain;
+}
+.app-header-image{
+  margin-top: 10px ;
+  height:35px;
+}
+.signup-form{
+  display: flex;
+  flex-direction: column;
+}
+.form-image{
+  margin-top: 10px ;
+  margin-bottom: 15px ;
+  height:35px;
+  object-fit: contain;
+  border-bottom: 1px solid white;
+
+}
+.signup-button{
+  background-color:#1c1d1d !important ;
+  color: white !important;
+ 
+}
+.signup-button-modal{
+  background-color:black !important ;
+  color: white !important;
+  margin-top: 10px !important;
+  border: 1px solid white !important;
+}
+.input{
+  color:white !important;
+}
+.app-loggedin{
+  display: flex;
+ 
+  align-items: center;
+}
